@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DD4E491A1D326E00CE091E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD4E481A1D326E00CE091E /* AppDelegate.swift */; };
+		07DD4E4B1A1D326E00CE091E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD4E4A1A1D326E00CE091E /* ViewController.swift */; };
+		07DD4E4E1A1D326E00CE091E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DD4E4C1A1D326E00CE091E /* Main.storyboard */; };
+		07DD4E501A1D326E00CE091E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DD4E4F1A1D326E00CE091E /* Images.xcassets */; };
+		07DD4E531A1D326E00CE091E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07DD4E511A1D326E00CE091E /* LaunchScreen.xib */; };
+		07DD4E5F1A1D326E00CE091E /* temperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD4E5E1A1D326E00CE091E /* temperatureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DD4E591A1D326E00CE091E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DD4E3B1A1D326E00CE091E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DD4E421A1D326E00CE091E;
+			remoteInfo = temperature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DD4E431A1D326E00CE091E /* temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DD4E471A1D326E00CE091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DD4E481A1D326E00CE091E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07DD4E4A1A1D326E00CE091E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07DD4E4D1A1D326E00CE091E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07DD4E4F1A1D326E00CE091E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07DD4E521A1D326E00CE091E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07DD4E581A1D326E00CE091E /* temperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DD4E5D1A1D326E00CE091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DD4E5E1A1D326E00CE091E /* temperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperatureTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DD4E401A1D326E00CE091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DD4E551A1D326E00CE091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DD4E3A1A1D326E00CE091E = {
+			isa = PBXGroup;
+			children = (
+				07DD4E451A1D326E00CE091E /* temperature */,
+				07DD4E5B1A1D326E00CE091E /* temperatureTests */,
+				07DD4E441A1D326E00CE091E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DD4E441A1D326E00CE091E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DD4E431A1D326E00CE091E /* temperature.app */,
+				07DD4E581A1D326E00CE091E /* temperatureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DD4E451A1D326E00CE091E /* temperature */ = {
+			isa = PBXGroup;
+			children = (
+				07DD4E481A1D326E00CE091E /* AppDelegate.swift */,
+				07DD4E4A1A1D326E00CE091E /* ViewController.swift */,
+				07DD4E4C1A1D326E00CE091E /* Main.storyboard */,
+				07DD4E4F1A1D326E00CE091E /* Images.xcassets */,
+				07DD4E511A1D326E00CE091E /* LaunchScreen.xib */,
+				07DD4E461A1D326E00CE091E /* Supporting Files */,
+			);
+			path = temperature;
+			sourceTree = "<group>";
+		};
+		07DD4E461A1D326E00CE091E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DD4E471A1D326E00CE091E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07DD4E5B1A1D326E00CE091E /* temperatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DD4E5E1A1D326E00CE091E /* temperatureTests.swift */,
+				07DD4E5C1A1D326E00CE091E /* Supporting Files */,
+			);
+			path = temperatureTests;
+			sourceTree = "<group>";
+		};
+		07DD4E5C1A1D326E00CE091E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DD4E5D1A1D326E00CE091E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DD4E421A1D326E00CE091E /* temperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DD4E621A1D326E00CE091E /* Build configuration list for PBXNativeTarget "temperature" */;
+			buildPhases = (
+				07DD4E3F1A1D326E00CE091E /* Sources */,
+				07DD4E401A1D326E00CE091E /* Frameworks */,
+				07DD4E411A1D326E00CE091E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = temperature;
+			productName = temperature;
+			productReference = 07DD4E431A1D326E00CE091E /* temperature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07DD4E571A1D326E00CE091E /* temperatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DD4E651A1D326E00CE091E /* Build configuration list for PBXNativeTarget "temperatureTests" */;
+			buildPhases = (
+				07DD4E541A1D326E00CE091E /* Sources */,
+				07DD4E551A1D326E00CE091E /* Frameworks */,
+				07DD4E561A1D326E00CE091E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DD4E5A1A1D326E00CE091E /* PBXTargetDependency */,
+			);
+			name = temperatureTests;
+			productName = temperatureTests;
+			productReference = 07DD4E581A1D326E00CE091E /* temperatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DD4E3B1A1D326E00CE091E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Will Schenk";
+				TargetAttributes = {
+					07DD4E421A1D326E00CE091E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					07DD4E571A1D326E00CE091E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 07DD4E421A1D326E00CE091E;
+					};
+				};
+			};
+			buildConfigurationList = 07DD4E3E1A1D326E00CE091E /* Build configuration list for PBXProject "temperature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07DD4E3A1A1D326E00CE091E;
+			productRefGroup = 07DD4E441A1D326E00CE091E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DD4E421A1D326E00CE091E /* temperature */,
+				07DD4E571A1D326E00CE091E /* temperatureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DD4E411A1D326E00CE091E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DD4E4E1A1D326E00CE091E /* Main.storyboard in Resources */,
+				07DD4E531A1D326E00CE091E /* LaunchScreen.xib in Resources */,
+				07DD4E501A1D326E00CE091E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DD4E561A1D326E00CE091E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DD4E3F1A1D326E00CE091E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DD4E4B1A1D326E00CE091E /* ViewController.swift in Sources */,
+				07DD4E491A1D326E00CE091E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DD4E541A1D326E00CE091E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DD4E5F1A1D326E00CE091E /* temperatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DD4E5A1A1D326E00CE091E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DD4E421A1D326E00CE091E /* temperature */;
+			targetProxy = 07DD4E591A1D326E00CE091E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07DD4E4C1A1D326E00CE091E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DD4E4D1A1D326E00CE091E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07DD4E511A1D326E00CE091E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DD4E521A1D326E00CE091E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DD4E601A1D326E00CE091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07DD4E611A1D326E00CE091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DD4E631A1D326E00CE091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = temperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07DD4E641A1D326E00CE091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = temperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07DD4E661A1D326E00CE091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = temperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temperature.app/temperature";
+			};
+			name = Debug;
+		};
+		07DD4E671A1D326E00CE091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = temperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temperature.app/temperature";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DD4E3E1A1D326E00CE091E /* Build configuration list for PBXProject "temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DD4E601A1D326E00CE091E /* Debug */,
+				07DD4E611A1D326E00CE091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DD4E621A1D326E00CE091E /* Build configuration list for PBXNativeTarget "temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DD4E631A1D326E00CE091E /* Debug */,
+				07DD4E641A1D326E00CE091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DD4E651A1D326E00CE091E /* Build configuration list for PBXNativeTarget "temperatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DD4E661A1D326E00CE091E /* Debug */,
+				07DD4E671A1D326E00CE091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DD4E3B1A1D326E00CE091E /* Project object */;
+}
